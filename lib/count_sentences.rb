@@ -19,7 +19,7 @@ class String
     sentences.delete_if do |sentence| 
       sentence.empty?
     end
-    sentence.count
+    sentences.count
   end
  
 end
